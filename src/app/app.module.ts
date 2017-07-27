@@ -2,13 +2,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
+import { MergeComponent } from './modules/merge/merge.component';
 
+import { RoutesModule } from './app.routes';
+ 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MergeComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    RoutesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

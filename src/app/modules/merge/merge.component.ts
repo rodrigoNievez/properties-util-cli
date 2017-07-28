@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
 
 export class MergeComponent {
 
+    fileChange(event) {
+        console.log('Este es el evento:');
+        console.log(event.target.files[0]);
+    }
+
 }
 

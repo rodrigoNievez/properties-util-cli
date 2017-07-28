@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FileSelectDirective, FileDropDirective} from 'ng2-file-upload';
 
 import { AppComponent } from './app.component';
 import { MergeComponent } from './modules/merge/merge.component';

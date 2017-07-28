@@ -5,9 +5,7 @@ import { AppComponent } from './app.component';
 import { MergeComponent } from './modules/merge/merge.component';
 
 const routes: Routes = [
-    { path: 'home', component: AppComponent },
-    { path: 'merge', component: MergeComponent},
-    { path: '', redirectTo: '/home', pathMatch: 'full' }
+    { path: 'merge', component: MergeComponent}
 ];
 
 @NgModule({
